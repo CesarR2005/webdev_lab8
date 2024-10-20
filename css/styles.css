@@ -1,0 +1,56 @@
+nav {
+  background-color: blue;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #000;
+}
+
+aside {
+  position: fixed;
+  right: 0;
+  background-color: red;
+  height: 100%;
+  width: 20%;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+aside ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+aside ul li {
+  padding: 15px 0;
+}
+
+aside ul li a {
+  color: #fff;
+  text-decoration: none;
+  background-color: #000;
+  display: block;
+  padding: 15px 0;
+}
