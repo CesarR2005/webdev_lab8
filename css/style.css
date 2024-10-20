@@ -1,4 +1,5 @@
-nav {
+/* Centered Navigation Bar */
+#main-navbar {
   background-color: blue;
   overflow: hidden;
   width: 100%;
@@ -8,25 +9,26 @@ nav {
   padding: 0;
 }
 
-nav ul {
+#navbar-container ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
-nav ul li {
+#navbar-container ul li {
   display: inline-block;
 }
 
-nav ul li a {
+#navbar-container ul li a {
   padding: 10px 20px;
   color: #fff;
   text-decoration: none;
   background-color: #000;
 }
 
-aside {
+/* Right Side Navigation (Sidebar) */
+#sidebar {
   position: fixed;
   right: 0;
   background-color: red;
@@ -37,17 +39,17 @@ aside {
   padding: 0;
 }
 
-aside ul {
+#sidebar-container ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-aside ul li {
+#sidebar-container ul li {
   padding: 15px 0;
 }
 
-aside ul li a {
+#sidebar-container ul li a {
   color: #fff;
   text-decoration: none;
   background-color: #000;
