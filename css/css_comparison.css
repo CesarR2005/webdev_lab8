@@ -1,13 +1,23 @@
+/* Center Navigation*/
 
 #main-navbar {
   background-color: blue;
   overflow: hidden;
+  position: relative;
 }
 
 #navbar-container {
   float: left;
   width: 100%;
   position: relative;
+  text-align: center;
+}
+
+#main-navbar ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
 }
 
 #main-navbar ul {
@@ -17,13 +27,6 @@
   position: relative;
   left: 50%;
   float: left;
-}
-
-#main-navbar ul li {
-  float: left;
-  position: relative;
-  right: 50%;
-  display: block;
 }
 
 #main-navbar ul li a {
@@ -41,6 +44,8 @@
   text-decoration: underline overline;
 }
 
+/* Side Bar Navigation*/
+
 #sidebar {
   position: fixed;
   right:0%;
@@ -49,18 +54,19 @@
   width: 20%;
 }
 
-#sidebar ul {
-  list-style-type: none;
-  text-align: center;
-  padding: 0;
-}
-
 #sidebar ul li a {
   display: block;
   padding: 15px 0;
   color: #fff;
   text-decoration: none;
 }
+
+#sidebar ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
 
 #sidebar ul li a:hover {
   background-color: #000;
